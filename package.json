@@ -1,0 +1,52 @@
+{
+    "name": "",
+    "version": "1.6.2",
+    "scripts": {
+        "start:dev": "cross-env NODE_ENV=dev nodemon --inspect=5001 --config nodemon.js src/server.js"
+    },
+    "author": {
+        "name": "Heegeon Kim",
+        "email": "hgkim@mapeacorp.com",
+        "url": "http://mapseacorp.com"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "array-refactor": "^1.0.10",
+        "axios": "^0.21.4",
+        "body-parser": "^1.20.2",
+        "config": "3.3.1",
+        "cross-env": "^7.0.3",
+        "express": "^4.18.2",
+        "express-validator": "6.6.0",
+        "fs": "0.0.1-security",
+        "glob": "7.1.6",
+        "https": "^1.0.0",
+        "js-yaml": "^4.1.0",
+        "jschardet": "^2.3.0",
+        "jsonwebtoken": "^9.0.0",
+        "mariadb": "^2.5.2",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.2.5",
+        "node": "^15.4.0",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0",
+        "sequelize": "^6.3.5",
+        "sharp": "^0.31.3",
+        "swagger-jsdoc": "^6.0.0",
+        "swagger-ui-express": "^4.1.6",
+        "xml2js": "^0.4.23"
+    },
+    "devDependencies": {
+        "eslint": "7.4.0",
+        "eslint-config-airbnb-base": "14.2.0",
+        "eslint-config-standard": "14.1.1",
+        "eslint-plugin-import": "2.22.0",
+        "eslint-plugin-node": "11.1.0",
+        "eslint-plugin-promise": "4.2.1",
+        "eslint-plugin-standard": "4.0.1",
+        "nodemon": "^2.0.21",
+        "prettier": "2.4.0"
+    }
+}
